@@ -63,7 +63,7 @@ namespace LibApp
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Index}/{bookid?}");
                 endpoints.MapRazorPages();
             });
         }
